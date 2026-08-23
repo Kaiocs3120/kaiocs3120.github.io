@@ -13,9 +13,19 @@
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="styles.css?v=20260823-0024">
 <style>
-.hero h1{font-weight:700;line-height:.99;letter-spacing:-.042em;font-kerning:normal}
-.hero-location{margin:10px 0 0;color:#7b8598;font-size:12px;font-weight:600;letter-spacing:.01em}
-@media(max-width:520px){.hero h1{letter-spacing:-.034em}}
+.hero{min-height:560px}
+.hero-inner{padding:148px 0 82px}
+.hero h1{font-size:clamp(58px,7vw,82px);font-weight:700;line-height:.99;letter-spacing:-.04em;font-kerning:normal}
+.intro{margin-top:24px}
+.hero-meta{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:14px 0 0;color:#7b8598;font-size:12.5px;line-height:1.5;font-weight:590}
+.hero-meta .dot{color:#aab2c0;font-weight:400}
+.hero-links{margin-top:24px}
+@media(max-width:520px){
+  .hero{min-height:520px}
+  .hero-inner{padding:128px 0 72px}
+  .hero h1{font-size:54px;letter-spacing:-.032em}
+  .hero-meta{gap:8px;font-size:12px}
+}
 </style>
 </head>
 <body>
@@ -41,15 +51,7 @@
     <p class="domain">MACHINE LEARNING <span>·</span> COMPUTATIONAL PHYSICS</p>
     <h1>Arnav Garg</h1>
     <p class="intro">I’m interested in machine learning and computer science, including applications to physics.</p>
-    <p class="hero-location">Southern California</p>
-
-    <div class="hero-role" aria-label="2026 experience">
-      <span class="hero-role-date">2026</span>
-      <div class="hero-role-copy">
-        <strong>Machine Learning Intern · Mercor</strong>
-        <p>Evaluation research and benchmark development for frontier AI systems.</p>
-      </div>
-    </div>
+    <p class="hero-meta"><span>Southern California</span><span class="dot" aria-hidden="true">·</span><span>Machine Learning Intern at Mercor, 2026</span></p>
 
     <div class="hero-links">
       <a class="hero-action hero-action-primary" href="#research">Research <span aria-hidden="true">↓</span></a>
