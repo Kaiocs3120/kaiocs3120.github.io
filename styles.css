@@ -111,7 +111,7 @@ a{color:inherit}
 .action-chip:hover span:last-child{transform:translate(1px,-1px)}
 .action-code{background:#fff;color:#56515f}
 
-.papers-section{background:#fff}
+.papers-section{background:#fff;padding-bottom:118px}
 .papers-wrap{max-width:var(--papers)}
 .paper-heading{margin-bottom:34px}
 .paper-group{margin-top:56px}
@@ -127,12 +127,40 @@ a{color:inherit}
 .paper-content .venue{color:#898f9b}
 .paper-actions{display:flex;gap:7px;flex-wrap:wrap;justify-content:flex-end;padding-top:1px}
 
-.manuscripts{margin-top:64px}
-.manuscript-list{display:grid;gap:10px}
-.manuscript-card{position:relative;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:22px;align-items:center;min-height:82px;padding:18px 20px 18px 24px;border:1px solid #e9e6f0;border-radius:14px;background:linear-gradient(120deg,#fff 0%,#fdfcff 72%,#f7f4ff 100%);box-shadow:0 5px 18px rgba(52,42,90,.02);overflow:hidden;transition:transform .2s var(--ease),border-color .2s ease,box-shadow .2s ease,background .2s ease}
-.manuscript-card::before{content:"";position:absolute;left:0;top:13px;bottom:13px;width:3px;border-radius:0 4px 4px 0;background:linear-gradient(180deg,#7867df,#6bc8d0);opacity:.72}
-.manuscript-card:hover{transform:translateY(-2px);border-color:#d7d0e8;box-shadow:0 11px 26px rgba(52,42,90,.055);background:linear-gradient(120deg,#fff,#fbf9ff)}
-.manuscript-card h4{margin:0;font-size:15px;line-height:1.43;letter-spacing:-.012em;font-weight:625}
+.manuscripts{
+  margin-top:72px;
+  padding:30px 28px 28px;
+  border:1px solid #ebe7f3;
+  border-radius:22px;
+  background:linear-gradient(145deg,#fbfaff 0%,#fafbfe 58%,#f7fbfc 100%);
+  box-shadow:0 12px 38px rgba(47,37,86,.035)
+}
+.manuscripts .group-heading{margin-bottom:19px}
+.manuscript-list{display:grid;gap:14px}
+.manuscript-card{
+  position:relative;
+  display:grid;
+  grid-template-columns:minmax(0,1fr) auto;
+  gap:26px;
+  align-items:stretch;
+  min-height:132px;
+  padding:23px 22px 22px 27px;
+  border:1px solid #e7e3ef;
+  border-radius:16px;
+  background:rgba(255,255,255,.9);
+  box-shadow:0 6px 20px rgba(52,42,90,.025);
+  overflow:hidden;
+  transition:transform .2s var(--ease),border-color .2s ease,box-shadow .2s ease,background .2s ease
+}
+.manuscript-card::before{content:"";position:absolute;left:0;top:18px;bottom:18px;width:3px;border-radius:0 4px 4px 0;background:linear-gradient(180deg,#7867df,#6bc8d0);opacity:.72}
+.manuscript-card:hover{transform:translateY(-2px);border-color:#d4cde6;box-shadow:0 13px 30px rgba(52,42,90,.06);background:#fff}
+.manuscript-copy{display:flex;flex-direction:column;justify-content:center;min-width:0}
+.manuscript-meta{display:flex;align-items:center;gap:12px;margin:0 0 15px;font-size:9.5px;line-height:1;text-transform:uppercase;letter-spacing:.105em;font-weight:760}
+.manuscript-meta span:first-child{color:#6658be}
+.manuscript-meta span:last-child{color:#a09ca9}
+.manuscript-meta span+span::before{content:"";display:inline-block;width:3px;height:3px;margin:0 10px 2px 0;border-radius:50%;background:#c5c1cc}
+.manuscript-card h4{margin:0;max-width:780px;font-size:15.5px;line-height:1.45;letter-spacing:-.013em;font-weight:630}
+.manuscript-card>.action-chip{align-self:end;white-space:nowrap;margin-bottom:2px}
 
 .experience-section{background:linear-gradient(180deg,#faf9fd,#f5f6fa)}
 .experience-heading{margin-bottom:28px}
@@ -162,6 +190,7 @@ footer{padding:50px 0;background:#fbfbfd;color:var(--ink);border-top:1px solid #
   .paper-row{grid-template-columns:46px 1fr}
   .paper-actions{grid-column:2;justify-content:flex-start}
   .experience-row{align-items:flex-start;flex-direction:column}
+  .manuscripts{padding:25px 20px 22px}
 }
 
 @media(max-width:520px){
@@ -176,8 +205,10 @@ footer{padding:50px 0;background:#fbfbfd;color:var(--ink);border-top:1px solid #
   .paper-row{grid-template-columns:1fr;gap:8px;padding:18px}
   .paper-actions{grid-column:1}
   .paper-year{padding:0}
-  .manuscript-card{grid-template-columns:1fr;gap:13px;padding:17px 17px 17px 21px}
-  .manuscript-card .action-chip{justify-self:start}
+  .manuscripts{margin-left:-4px;margin-right:-4px;padding:22px 12px 14px;border-radius:18px}
+  .manuscript-card{grid-template-columns:1fr;gap:17px;min-height:0;padding:20px 17px 18px 21px}
+  .manuscript-meta{flex-wrap:wrap;gap:7px;margin-bottom:12px}
+  .manuscript-card .action-chip{justify-self:start;align-self:auto}
   .footer-inner{flex-direction:column;align-items:flex-start}
   .footer-inner>div:last-child{flex-wrap:wrap}
 }
